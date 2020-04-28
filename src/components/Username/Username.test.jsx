@@ -1,10 +1,10 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import SearchUser from './Username.jsx';
+import Username from './Username.jsx';
 
-describe('SearchUser', () => {
+describe('Username', () => {
   it('matches a snapshot', () => {
-    const wrapper = shallow(<SearchUser 
+    const wrapper = shallow(<Username 
       username="dakotadruley"
       onClick={() => {}}/>);
     expect(wrapper).toMatchSnapshot();
