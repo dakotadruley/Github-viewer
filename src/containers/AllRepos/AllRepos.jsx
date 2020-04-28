@@ -4,12 +4,13 @@ import { fetchRepos } from '../../services/fetchRepos.js';
 
 export default class AllRepos extends Component {
   state = {
+    username: 'dakotadruley',
     repos: [],
     loading: true,
   }
 
   componentDidMount() {
-    fetchRepos()
+    fetchRepos(this.state.username)
       .then(repos => this.setState({ repos, loading: false }));
   }
 

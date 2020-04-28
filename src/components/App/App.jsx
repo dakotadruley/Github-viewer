@@ -5,7 +5,7 @@ import SearchUser from '../../containers/SearchUser/SearchUser.jsx';
 export default function App() {
   return (
     <>
-      {/* <AllRepos /> */}
+      <AllRepos /> 
       <SearchUser />
     </>
   );
