@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const User = ({ name, followers, following, link }) => (
+const UserDisplay = ({ name, followers, following, link }) => (
   <section>
     <h2>{name}</h2>
     <a href={link}>GitHub</a>
@@ -10,11 +10,11 @@ const User = ({ name, followers, following, link }) => (
   </section>
 );
 
-User.propTypes = {
+UserDisplay.propTypes = {
   name: PropTypes.string.isRequired,
   link: PropTypes.string.isRequired,
   followers: PropTypes.string.isRequired,
   following: PropTypes.string.isRequired
 };
 
-export default User;
+export default UserDisplay;

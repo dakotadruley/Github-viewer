@@ -1,8 +1,8 @@
 import React from 'react';
-import Username from '../Username/Username.jsx';
+import UserDisplay from '../UserDisplay/UserDisplay.jsx';
 
 
 export default function App() {
-  return <Username />;
+  return <UserDisplay />;
 }
   
