@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchUser matches a snapshot 1`] = `
+<Fragment>
+  <input
+    name="username"
+    type="test"
+    value="dakotadruley"
+  />
+  <button
+    name="username"
+    onClick={[Function]}
+    type="button"
+    value="dakotadruley"
+  />
+</Fragment>
+`;
