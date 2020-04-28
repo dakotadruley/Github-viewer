@@ -1,8 +1,13 @@
 import React from 'react';
-import UserDisplay from '../UserDisplay/UserDisplay.jsx';
-
+import AllRepos from '../../containers/AllRepos/AllRepos.jsx';
+import SearchUser from '../../containers/SearchUser/SearchUser.jsx';
 
 export default function App() {
-  return <UserDisplay />;
+  return (
+    <>
+      {/* <AllRepos /> */}
+      <SearchUser />
+    </>
+  );
 }
   
