@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const UserDisplay = ({ name, avatar_url, followers, following, link }) => (
+const UserDisplay = ({ name, avatar_url, followers, following, html_url }) => (
   <section>
     <h2>{name}</h2>
     <img src={avatar_url} alt={name} />
-    <a href={link}>GitHub</a>
+    <a href={html_url}>GitHub</a>
     <p>{followers}</p>
     <p>{following}</p>
   </section>
@@ -14,7 +14,7 @@ const UserDisplay = ({ name, avatar_url, followers, following, link }) => (
 UserDisplay.propTypes = {
   name: PropTypes.string.isRequired,
   avatar_url: PropTypes.string.isRequired,
-  link: PropTypes.string.isRequired,
+  html_url: PropTypes.string.isRequired,
   followers: PropTypes.string.isRequired,
   following: PropTypes.string.isRequired
 };
