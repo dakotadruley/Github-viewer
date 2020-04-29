@@ -5,9 +5,10 @@ exports[`UserDisplay matches a snapshot 1`] = `
   <h2>
     dakota druley
   </h2>
-  <a
-    href="URL"
-  >
+  <img
+    alt="dakota druley"
+  />
+  <a>
     GitHub
   </a>
   <p>
