@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepoList match a snapshot 1`] = `
+<ul>
+  <li
+    key="1"
+  >
+    <Repo
+      id={1}
+      name="dakota-app"
+      url="URL1"
+    />
+  </li>
+  <li
+    key="2"
+  >
+    <Repo
+      id={2}
+      name="dakota-app-2"
+      url="URL2"
+    />
+  </li>
+</ul>
+`;
