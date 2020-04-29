@@ -22,7 +22,7 @@ export default class SearchUser extends Component {
     render() {
       const { username, userdisplay, loading } = this.state;
       if(loading) return (<h1>LOADIN</h1>);
-      
+
       return (
         <>
           <Username username={username}
